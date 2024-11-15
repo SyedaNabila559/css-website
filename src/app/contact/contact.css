@@ -1,0 +1,106 @@
+.contact{
+    background: url("/c1.jpg") no-repeat center center/cover;
+    width: 100%;
+    height:55vh;
+    padding: 0;
+    margin-top: 10%;
+    position: relative;
+}
+.Con-box{
+    background-color: #3d1f0a;
+    position: absolute;
+    width: 50%;
+    margin: auto;
+    height: 300px;
+    top: -15%;
+    left: 25%;
+    padding: 35px 0;
+}
+.Con-box .heading{
+    color:#954535;
+    text-align: center;
+    font-size: 4rem;
+    font-style: italic;
+    margin-top: 20px;
+    font-weight: 700;
+}
+.Con-box .para{
+    color: #954535;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+.Con-box .icons{
+    color: #d0a36c;
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icons div{
+    padding: 0px 13px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.icons div{
+    display: inline-block;
+    padding: 6rem px;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 500;
+
+}
+.icons div:hover{
+    color:#954535;
+}
+.icons div span{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 768px) {
+    .Con-box {
+        width: 80%; 
+        height: auto; 
+        top: 0; 
+        left: 10%; 
+        padding: 20px; 
+    }
+
+    .Con-box .heading {
+        font-size: 3rem; 
+    }
+
+    .Con-box .para {
+        font-size: 1.5rem; 
+    }
+
+    .icons div {
+        padding: 4rem 8px; 
+        font-size: 1.5rem; 
+    }
+}
+
+@media (max-width: 480px) {
+    .Con-box {
+        width: 60%; 
+        padding: 20px; 
+    }
+
+    .Con-box .heading {
+        font-size: 3rem; 
+    }
+
+    .Con-box .para {
+        font-size: 1.5rem; 
+    }
+
+    .icons div {
+        padding: 3rem 5px; 
+        font-size: 2.5rem; 
+    }
+    .icons div span{
+        display: none;
+    }
+}
